@@ -1,11 +1,9 @@
 package com.ScapeSociety;
 
-import com.google.inject.Provides;
 import javax.inject.Inject;
 import javax.swing.*;
 
 import lombok.extern.slf4j.Slf4j;
-import net.runelite.client.config.ConfigManager;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.ui.ClientToolbar;
