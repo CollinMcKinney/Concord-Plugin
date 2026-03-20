@@ -8,9 +8,9 @@ import net.runelite.client.config.ConfigItem;
 public interface ConcordConfig extends Config
 {
 	@ConfigItem(
-		keyName = "greeting",
-		name = "Welcome Greeting",
-		description = "The message to show to the user when they login"
+			keyName = "greeting",
+			name = "Welcome Greeting",
+			description = "The message to show to the user when they login"
 	)
 	default String greeting()
 	{
